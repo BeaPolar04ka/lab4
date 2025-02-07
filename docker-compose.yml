@@ -1,8 +1,0 @@
-services:
-  web:
-    image: php:apache
-    container_name: php_lab4
-    volumes:
-      - ./lab4:/var/www/html
-    ports:
-      - "8080:80"
